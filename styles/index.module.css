@@ -1,0 +1,35 @@
+.nav{
+    height: 64px;
+    width: 100%;
+    background: #171715;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 70px 0px 200px;
+  
+}
+
+.text{
+  color: #fff;
+  text-decoration: none;
+}
+
+.ul{
+  display: flex;
+  margin-left: 0;
+}
+
+.li{
+  margin: 0 0px;
+  color: #fff;
+}
+
+.button_sign{
+  border-radius: 5px;
+  font-size: 16px;
+  color: #fff;
+  border: 1px solid #4C5FD5;
+  padding: 4px 10px;
+  background-color: #4C5FD5;
+  cursor: pointer;
+}
