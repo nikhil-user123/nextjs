@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 70px 0px 200px;
+    padding: 0px 40px 0px  80px;
   
 }
 
@@ -17,11 +17,17 @@
 .ul{
   display: flex;
   margin-left: 0;
+
 }
 
 .li{
   margin: 0 0px;
   color: #fff;
+  padding: 0 5px;
+}
+
+.button{
+  display: flex;
 }
 
 .button_sign{
@@ -33,3 +39,33 @@
   background-color: #4C5FD5;
   cursor: pointer;
 }
+
+.button_Sub{
+  color: #fff;
+  border: 1px solid white;
+  padding: 5px 9px;
+  display: flex;
+  border-radius: 7px;
+  background-color: #171715;
+  margin: 0px 20px;
+  cursor: pointer;
+}
+
+.button_Sub:hover{
+  background-color: #fff;
+  border: 2px solid gray;
+  color: black;
+  font-weight: 300;
+}
+
+
+.menu-btn{
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0 5px;
+  display: none;
+}
+
+
+
