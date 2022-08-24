@@ -1,4 +1,5 @@
 import Link from"next/link";
+
 import styles from '../styles/index.module.css';
 {/*
 import '../node_modules/@fortawesome/fontawesome-svg-core/styles.css'
@@ -9,9 +10,9 @@ import { faFaceRelieved } from '@fortawesome/pro-solid-svg-icons'*/}
                 <> 
                 <nav className={styles.nav}>
                 <ul className={styles.ul}>                 
-                    <Link href="/"  >
+                    <Link href="/abstract"  >
                     <li className={styles.li}>    
-                        <a className={styles.text}>Astract</a>
+                        <a className={styles.text}>Abstract</a>
                     </li>
                     </Link>
                 <li className={styles.li}> 
